@@ -1,0 +1,78 @@
+// Margins
+// XS
+$layout-xs: 24px;
+// XS Portrait
+$layout-xs-p: 24px;
+// S
+$layout-s: 32px;
+// S Portrait
+$layout-s-p: 32px;
+// M
+$layout-m: 42px;
+
+// XL
+$layout-xl: 108px;
+
+// Header
+
+.Header {
+  width: 100%;
+  background-color: #2b2a2a;
+  height: 56px;
+  display: flex;
+}
+.Header__container {
+  display: flex;
+  align-items: center;
+  padding: 0 $layout-xl;
+}
+
+.Header__container-logo {
+  color: white;
+}
+
+// UltraResponsive
+@media (min-width: 320px) {
+  .Header__container {
+    padding: 0 $layout-xs;
+  }
+}
+
+// XS
+@media (min-width: 424px) {
+}
+
+// XS Portrait
+@media (min-width: 796px) {
+  .Header__container {
+    padding: 0 $layout-xs-p;
+  }
+}
+
+// S
+@media (min-width: 800px) {
+  .Header__container {
+    padding: 0 $layout-s;
+  }
+}
+
+// S Portrait
+@media (min-width: 1016px) {
+  .Header__container {
+    padding: 0 $layout-s-p;
+  }
+}
+
+// M
+@media (min-width: 1028px) {
+  .Header__container {
+    padding: 0 $layout-m;
+  }
+}
+
+// XL
+@media (min-width: 1224px) {
+  .Header__container {
+    padding: 0 $layout-xl;
+  }
+}
