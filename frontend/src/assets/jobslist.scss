@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
+}
+.list__job {
+  margin: 12px 0;
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12);
+  display: flex;
+}
+.job__container {
+  display: flex;
+  margin: 12px 12px;
+}
+.job__img {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  & img {
+    border-radius: 50px;
+  }
+}
+.job__info-payment {
+  color: #8f8c8c;
+}
